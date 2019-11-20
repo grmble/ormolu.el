@@ -94,7 +94,7 @@ Provide the following keybindings:
                                t
                                t
                                nil)
-                              (cons "/dev/stdin" ormolu-extra-args)))))
+                              ormolu-extra-args))))
       (if (zerop ret)
           (progn
             (if (not (string= (buffer-string) (with-current-buffer buf (buffer-string))))
