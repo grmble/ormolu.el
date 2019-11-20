@@ -19,3 +19,12 @@ With [use-package](https://github.com/jwiegley/use-package/) + [quelpa](https://
  (nmap 'haskell-mode-map
    "C-c r" 'ormolu-format-buffer))
 ```
+
+## spacemacs
+
+In `spacemacs/additional-packages`:
+
+```elisp
+   (ormolu :location (recipe :fetcher github :repo "grmble/ormolu.el"))
+```
+
